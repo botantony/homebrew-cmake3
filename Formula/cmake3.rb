@@ -5,6 +5,13 @@ class Cmake3 < Formula
   sha256 "a6d2eb1ebeb99130dfe63ef5a340c3fdb11431cce3d7ca148524c125924cea68"
   license "BSD-3-Clause"
 
+  bottle do
+    root_url "https://github.com/botantony/homebrew-cmake3/releases/download/cmake3-3.31.7"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "f46c17c36732badf4a3c53fe833ea3bd7898272e5b906f6ce5ffc57d8648c5f1"
+    sha256 cellar: :any_skip_relocation, ventura:       "7d044d61df810ed8d79303282b055dc6544bacf1ddf3e416895d3b2b6a910283"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "2662a231dda14426809fec780b0b1a93903096bc50eb2987ff9d73ca4a83e6e2"
+  end
+
   keg_only "conflicts with core formula"
 
   uses_from_macos "ncurses"
