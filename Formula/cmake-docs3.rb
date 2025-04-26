@@ -4,6 +4,11 @@ class CmakeDocs3 < Formula
   url "https://github.com/Kitware/CMake/releases/download/v3.31.7/cmake-3.31.7.tar.gz"
   sha256 "a6d2eb1ebeb99130dfe63ef5a340c3fdb11431cce3d7ca148524c125924cea68"
   license "BSD-3-Clause"
+  revision 1
+
+  livecheck do
+    formula "cmake3"
+  end
 
   bottle do
     root_url "https://github.com/botantony/homebrew-cmake3/releases/download/cmake-docs3-3.31.7"
