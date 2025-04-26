@@ -11,10 +11,11 @@ class CmakeDocs3 < Formula
   end
 
   bottle do
-    root_url "https://github.com/botantony/homebrew-cmake3/releases/download/cmake-docs3-3.31.7"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "05ab5e6fe32c5fa05061a52302f69f5b5c49a5c13b7acb28522130cc7da4b571"
-    sha256 cellar: :any_skip_relocation, ventura:       "2974482259c1f9fabc02f653adf8ddf4ca80fbabc0f0862a6f8ed95c75f8a48b"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "edfe2803b7f20feabc34e825a1cce3e710c2bc9ce19da9eb732a9b47e2fdc21d"
+    root_url "https://github.com/botantony/homebrew-cmake3/releases/download/cmake-docs3-3.31.7_1"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "454e9cc1953ad1a1a10de3bc3e262060a0187ec0a1e6389cb26ce5c891f0dda8"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "6dbb66afebdd153bfdfab1385de3c59a4da7aeb33b16285a4cc99e1019d4abc4"
+    sha256 cellar: :any_skip_relocation, ventura:       "493ff02336f7b51090d9545f88a786d393161ed9d137051beea877c3b02c5585"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "44abded304bdcc37dd30e2315e93cfc273e1a4912412aaa1531b78313f0b6e26"
   end
 
   keg_only "conflicts with core formula"
