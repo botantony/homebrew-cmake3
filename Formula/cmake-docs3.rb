@@ -1,8 +1,8 @@
 class CmakeDocs3 < Formula
   desc "Documentation for CMake"
   homepage "https://www.cmake.org/"
-  url "https://github.com/Kitware/CMake/releases/download/v3.31.8/cmake-3.31.8.tar.gz"
-  sha256 "e3cde3ca83dc2d3212105326b8f1b565116be808394384007e7ef1c253af6caa"
+  url "https://github.com/Kitware/CMake/releases/download/v3.31.9/cmake-3.31.9.tar.gz"
+  sha256 "5d4fdec04247ca8a8e8f63692f0d0f1e9d6d082a2bdd008dff8ab3ba7215aa83"
   license "BSD-3-Clause"
 
   livecheck do
