@@ -17,7 +17,7 @@ class Cmake3 < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "3cad1a1d6f740defedd74a9e670f81e385ced9c9710492f50c737adefc68957e"
   end
 
-  keg_only "conflicts with core formula"
+  keg_only "it conflicts with core formula"
 
   uses_from_macos "ncurses"
 
