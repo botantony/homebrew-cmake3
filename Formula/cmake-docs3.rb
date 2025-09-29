@@ -14,7 +14,7 @@ class CmakeDocs3 < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "d35d0b95e2764a747268a02fd80c9cb0d32be246dc5421679d64a746fb57b676"
   end
 
-  keg_only "conflicts with core formula"
+  keg_only "it conflicts with core formula"
 
   depends_on "cmake3" => :build
   depends_on "sphinx-doc" => :build
