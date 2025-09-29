@@ -19,8 +19,8 @@ However, if you plan to use CMake 3 and CMake 4 together, consider adding aliase
 ```bash
 alias ccmake3="$(brew --prefix cmake3)/bin/ccmake"
 alias cmake3="$(brew --prefix cmake3)/bin/cmake"
-alias cpack3="$(brew --prefix cmake3)/bin/cpack3"
-alias ctest3="$(brew --prefix cmake3)/bin/ctest3"
+alias cpack3="$(brew --prefix cmake3)/bin/cpack"
+alias ctest3="$(brew --prefix cmake3)/bin/ctest"
 ```
 
 Note that you can't create a symlink to `$(brew --prefix cmake3)/bin/cmake`, as CMake will complain about "missing libraries".
