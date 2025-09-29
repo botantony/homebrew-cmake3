@@ -11,7 +11,9 @@ class CmakeDocs3 < Formula
 
   bottle do
     root_url "https://github.com/botantony/homebrew-cmake3/releases/download/cmake-docs3-3.31.9"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "d35d0b95e2764a747268a02fd80c9cb0d32be246dc5421679d64a746fb57b676"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "866cff56cdaa0fd42ebb3cffc15f30e0a80547538a4538071ae9aeed829f2dc1"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "b794282e7ccd7c2b2e3a8ebdc54fd88e419c9e49d866e25f974ad18bc8d0e2d1"
   end
 
   keg_only "it conflicts with core formula"
