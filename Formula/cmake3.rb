@@ -11,10 +11,10 @@ class Cmake3 < Formula
   end
 
   bottle do
-    root_url "https://github.com/botantony/homebrew-cmake3/releases/download/cmake3-3.31.10"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "8cd2af81ce51d6859d971479a364392c3379e36ff42ab2eab1b47cdbba8905b2"
-    sha256 cellar: :any_skip_relocation, sequoia:      "e92c2487f80c241f490c4a3898f65476a4e1267226d91d9a7c00449bd7daafc8"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "f6cfff591ec4e8e3fe3a6cf11d9509730b1be085f895d250e48c30fe33fdd0b4"
+    root_url "https://github.com/botantony/homebrew-cmake3/releases/download/cmake3-3.31.11"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "f732e3b2ca608f6823e187cf09cdbbb9fa86e1cb6c187b4c2a970ae80de25aee"
+    sha256 cellar: :any_skip_relocation, sequoia:      "98d7aee5270f78d4f5c4ad28178d34a6fd80a26d8843a2d7a6b94bf4dfa30488"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "bfa09ed1ab560e2304336499bd83e12b20b0e6e5ff8aea537bc1c92c72407198"
   end
 
   keg_only "it conflicts with core formula"
